@@ -1,0 +1,124 @@
+#grid-3D {
+	width: 100%;
+	height: 70%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#grid td {
+	border: 0.5svh solid #333;
+}
+#status-bar {
+	padding-top: 2svh;
+}
+#status-bar * {
+	width: 100%;
+	font-size: 9svh;
+	text-align: center;
+}
+#N-level {
+	font-size: 4svh;
+}
+#engine-button {
+	top: 2svh;
+	right: 2svh;
+}
+#eye-btn, #ear-btn {
+	font-size: 5svh;
+	text-align: center;
+	width: 49.5svw;
+	line-height: 100%;
+	background: #333;
+	color: #111;
+	position: absolute;
+	bottom: 0;
+	padding: 3svh 0;
+	border: 0.1svw solid #000;
+}
+#eye-btn {
+	left: 0;
+	border-top-right-radius: 4px;
+	border-width: 0 .25svw 0 0;
+}
+#ear-btn {
+	right: 0;
+	border-top-left-radius: 4px;
+    	border-width: 0 0 0 .25svw; 
+}
+#eye-btn:before {
+  	content: "Visual";
+}
+#ear-btn:before {
+  	content: "Audio";
+}
+.pop {
+	font-size: 5svh;
+}
+#progress-outer {
+	height: 1svh!important;
+}
+.results-icons td, .results-text {
+	padding: 1svh;
+}
+.ct-label {
+    	font-size: 3svh;
+}
+.btn-standard {
+	font-size: 4svh;
+	padding: 1svh 1.5svh;
+}
+.btn-popup {
+	width: 7svh;
+	height: 7svh;
+	font-size: 4svh;
+}
+.btn-popup.normal {
+	top: 2svh;
+    	right: 2svh;
+}
+.btn-popup.reflected {
+	bottom: 13svh;
+	right: 2svh;
+}
+#navigation {
+	padding: 2svh;
+}
+.nav-item input, .nav-item select {
+	margin-bottom: 24px;
+}
+label[for="nav-trigger"] {
+	top: 2svh;
+	left: 2svh;
+	width: 6svh;
+	height: 6svh;
+	font-size: 4svh;
+}
+#nav-trigger:checked + label {
+	left: 37svh;
+}
+#nav-trigger:checked ~ #site-wrap {
+	left: 35svh;
+}
+#nav-trigger + label, #site-wrap {
+	transition: left 0.2s;
+}
+.nav-item label, .nav-item p, .nav-item span.range-label  {
+	width: 31svh;
+	color: #fff;
+	font-size: 3svh;
+	font-weight: 700;
+}
+.nav-item input, .nav-item select {
+	display: block;
+	width: 31svh!important;
+	font-size: 3svh;
+	border: 0;
+	border-radius: 4px;
+}
+input[type=range].slider::-webkit-slider-runnable-track, .nav-item input, .nav-item select {
+	height: 5svh;
+}
+input[type=range].slider::-webkit-slider-thumb {
+	height: 5svh;
+	width: 3.67svh;
+}
